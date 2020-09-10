@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header {
+    background-color: #56ccff;
+    box-shadow: 10px 10px 5px #cccc;
+    margin-bottom: 100px;
+}
+h1 {
+    text-align: center;
+    color: #6457ff;
+    font-weight: bold;
+    font-family: "Arial Narrow ", serif;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.main {
+    background-color: #dfe7ff;
+    //*display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;*//
+}
+button {
+    background-color: #6457ff;
+    color: #FFFF;
+    font-family: "Arial Narrow", serif;
+    border-radius: 5%;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#search {
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    align-content: center;
+}
+
+#search label {
+    font-family: "Arial Narrow", serif;
+    font-weight: 900;
+}
+
+#city {
+    margin: 0 5px 0;
+}
+
+#search input {
+    border-color: cornflowerblue;
+}

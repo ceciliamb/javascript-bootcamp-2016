@@ -1,1 +1,1 @@
-# javascript-bootcamp-2016
+# javascript-bootcamp-2020
