@@ -2,41 +2,38 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica, serif;
 }
 header {
-    background-color: #56ccff;
     box-shadow: 10px 10px 5px #cccc;
+    background-color: #56ccff;
     margin-bottom: 100px;
 }
-h1 {
+header h1 {
     text-align: center;
     color: #6457ff;
+    background-color: #56ccff;
     font-weight: bold;
-    font-family: "Arial Narrow ", serif;
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin: 20px 0 5px 0;
 }
 .main {
-    background-color: #dfe7ff;
-    //*display: flex;
+    /* display: flex;
     flex: 1;
     flex-direction: column;
-    align-items: center;*//
+    align-items: center;*/
 }
 button {
     background-color: #6457ff;
     color: #FFFF;
-    font-family: "Arial Narrow", serif;
-    border-radius: 5%;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
+    border-radius: 5px;
+    padding:10px 24px;
     border: none;
 }
 
 #search {
-    background-color: chartreuse;
+    background-color: #FFFF;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,14 +42,13 @@ button {
 }
 
 #search label {
-    font-family: "Arial Narrow", serif;
     font-weight: 900;
+    padding: 10px;
+    border-style: none;
 }
 
 #city {
-    margin: 0 5px 0;
-}
-
-#search input {
-    border-color: cornflowerblue;
+    margin: 5px;
+    border-color: #b9c0ed;
+    border-style: solid;
 }
